@@ -18,7 +18,7 @@ public class LoggerTest {
 		Logger logger = loggerFactory.GetLogger("console");
 		assertEquals(logger.getClass(), ConsoleLogger.class);
 	}
-	
+
 	@Test
 	public void testFactoryGenerateFileLogger() {
 		// TODO: change this once logger factory is a singleton
